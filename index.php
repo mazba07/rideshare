@@ -9,7 +9,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Clean Blog</title>
+        <title>Ride Share</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -22,10 +22,10 @@
         <link href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-              
+
     </head>
 
-    <body style="height: 900px;">
+    <body>
 
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -57,9 +57,6 @@
                         <li>
                             <a data-toggle="modal" href="#userLogin">Login</a>
                         </li>
-                        <!--                    <li>
-                                                <a href="contact.html">Contact</a>
-                                            </li>-->
                     </ul>
                 </div>
                 <!-- /.navbar-collapse -->
@@ -129,8 +126,8 @@
 
             <section>
                 <div class="row">
-                    <div class="col-md-12" style="padding-right: 0px; padding-left: 0px; margin-top: 50px;">
-                        <!--<img src="resources/images/body_img.jpg" class="img-responsive" alt="Responsive image">-->
+                    <div class="col-md-12" style="margin-top: 70px;">
+                        <img src="http://placehold.it/1270x500" class="img-responsive" alt="Responsive image">
                     </div>
                 </div>
             </section>
@@ -328,34 +325,9 @@
         <!-- Custom Theme JavaScript -->
         <script src="resources/js/ride.js"></script>
 
+        <!-- Custom Theme JavaScript -->
+        <script src="resources/js/ride_frontend.js"></script>
+
     </body>
 
 </html>
-
-<script>
-                        $(document).ready(function () {
-                            //login to register
-                            $('#register_id').click(function (e) {
-                                $('#error').html('');
-                                $('#userLogin').modal('hide');
-                                $('#userSignup').modal('show');
-
-                            });
-                            //register to login
-                            $('#login_id').click(function (e) {
-                                $('#error_login').html('');
-                                $('#userSignup').modal('hide');
-                                $('#userLogin').modal('show');
-
-                            });
-                            //login to forgotPassword
-                            $('#forgotPassword_id').click(function (e) {
-                                $('#error_forgot_password').html('');
-                                $('#userLogin').modal('hide');
-                                $('#forgotPassword').modal('show');
-                            });
-
-                        });
-</script>
-
-

@@ -8,7 +8,7 @@
         <meta name="description" content="">
         <meta name="author" content="">
 
-        <title>Clean Blog</title>
+        <title>Ride Share</title>
 
         <!-- Bootstrap Core CSS -->
         <link href="resources/css/bootstrap.min.css" rel="stylesheet">
@@ -23,31 +23,9 @@
 
         <style>
             .navbar-custom {
-                -webkit-transition: background-color .3s;
-                -moz-transition: background-color .3s;
-                transition: background-color .3s;
-                -webkit-transform: translate3d(0,0,0);
-                -moz-transform: translate3d(0,0,0);
-                -ms-transform: translate3d(0,0,0);
-                -o-transform: translate3d(0,0,0);
-                transform: translate3d(0,0,0);
-                -webkit-backface-visibility: hidden;
-                backface-visibility: hidden;
-            }
-            .navbar-custom {
-                /*background: 0 0;*/
-                /*background: red;*/
                 background:rgba(30, 102, 161 , 0.7);
                 color: #333333;
                 border-bottom: 1px solid transparent;
-            }
-            .navbar-custom {
-                position: absolute;
-                top: 0;
-                left: 0;
-                width: 100%;
-                z-index: 3;
-                font-family: 'Open Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
             }
             .body_wrapper{
                 margin-top: 66px;

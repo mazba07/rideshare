@@ -183,7 +183,6 @@
 
 <!-- jQuery -->
 <script src="resources/js/jquery.js"></script>
-<script src="http://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
 
 <!-- Bootstrap Core JavaScript -->
 <script src="resources/js/bootstrap.min.js"></script>
@@ -191,32 +190,13 @@
 <!-- Custom Theme JavaScript -->
 <script src="resources/js/ride.js"></script>
 
+<!-- Custom Theme JavaScript -->
+<script src="resources/js/ride_frontend.js"></script>
+
+<!--only load for range slider-->
+<script src="resources/js/range_slider.js"></script>
+<script src="resources/js/range_custom_slider.js"></script>
+
 </body>
 
 </html>
-
-<script>
-                $(document).ready(function () {
-                    //login to register
-                    $('#register_id').click(function (e) {
-                        $('#error').html('');
-                        $('#userLogin').modal('hide');
-                        $('#userSignup').modal('show');
-
-                    });
-                    //register to login
-                    $('#login_id').click(function (e) {
-                        $('#error_login').html('');
-                        $('#userSignup').modal('hide');
-                        $('#userLogin').modal('show');
-
-                    });
-                    //login to forgotPassword
-                    $('#forgotPassword_id').click(function (e) {
-                        $('#error_forgot_password').html('');
-                        $('#userLogin').modal('hide');
-                        $('#forgotPassword').modal('show');
-                    });
-
-                });
-</script>

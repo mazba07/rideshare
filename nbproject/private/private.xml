@@ -5,6 +5,9 @@
         <group>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/agencyDelta/rideshare/details.php</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/agencyDelta/rideshare/resources/css/ride.css</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/agencyDelta/rideshare/template/header.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/agencyDelta/rideshare/template/footer.php</file>
+            <file>file:/Applications/XAMPP/xamppfiles/htdocs/agencyDelta/rideshare/listing.php</file>
             <file>file:/Applications/XAMPP/xamppfiles/htdocs/agencyDelta/rideshare/index.php</file>
         </group>
     </open-files>
